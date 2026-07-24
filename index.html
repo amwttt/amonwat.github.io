@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amonwat CV</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:linear-gradient(135deg,#ffd6ea,#ffeaf7,#ffc7e3);
+  padding:40px;
+  color:#555;
+}
+
+.cv{
+  max-width:900px;
+  margin:auto;
+  background:#fff;
+  border-radius:25px;
+  overflow:hidden;
+  box-shadow:0 15px 40px rgba(255,20,147,.25);
+}
+
+.header{
+  background:#ff85c8;
+  color:white;
+  text-align:center;
+  padding:30px;
+}
+
+.header h1{
+  font-family:'Playfair Display', serif;
+  font-size:55px;
+  font-weight:700;
+  letter-spacing:3px;
+  color:#fff;
+
+  text-shadow:
+  0 2px 0 #ff4fa3,
+  0 5px 10px rgba(255,20,147,.5);
+  margin-bottom:5px;
+}
+
+.header p{
+  font-family:'Poppins',sans-serif;
+  font-size:16px;
+  letter-spacing:1px;
+  line-height:2;
+}
+
+.header a{
+  color:white;
+  text-decoration:none;
+}
+
+.header a:hover{
+  text-decoration:underline;
+}
+
+.content{
+  padding:40px;
+}
+
+.section{
+  margin-bottom:35px;
+}
+
+.section h2{
+  color:#ff1493;
+  margin-bottom:18px;
+  border-left:8px solid #ff69b4;
+  padding-left:15px;
+  background:#fff0f7;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius:8px;
+  font-size:22px;
+}
+
+.section-card{
+  background:#fff8fc;
+  border:2px solid #ffd1e6;
+  border-radius:18px;
+  padding:20px;
+}
+
+.section-card p{
+  line-height:1.9;
+}
+
+.section-card h3{
+  color:#e75480;
+  margin-top:10px;
+  margin-bottom:5px;
+}
+
+ul{
+  padding-left:22px;
+}
+
+li{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.skill-list{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.canvas-box{
+  text-align:center;
+}
+
+canvas{
+  border:6px solid #ff69b4;
+  border-radius:20px;
+  background:white;
+  box-shadow:0 10px 25px rgba(255,105,180,.35);
+  image-rendering:pixelated;
+}
+
+.footer{
+  background:#fff0f8;
+  color:#ff1493;
+  text-align:center;
+  padding:20px;
+  font-weight:600;
+}
+
+.canvas-info{
+  margin-bottom:18px;
+  color:#e75480;
+  font-size:15px;
+  line-height:1.8;
+  font-weight:500;
+}
+
+@media(max-width:700px){
+
+body{
+  padding:15px;
+}
+
+.content{
+  padding:20px;
+}
+
+.header{
+  padding:35px 20px;
+}
+
+.header h1{
+  font-size:30px;
+}
+
+canvas{
+  width:100%;
+  max-width:350px;
+  height:auto;
+}
+}
+</style>
+</head>
+
+<body>
+
+<div class="cv">
+
+<div class="header">
+
+<h1>Amonwat Lawakittichaiyun</h1>
+
+<p>
+Email :
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=amonwat.l@ku.th" target="_blank">
+amonwat.l@ku.th
+</a>
+</p>
+
+<p>
+GitHub :
+<a href="https://github.com/amwttt" target="_blank">
+github.com/amwttt
+</a>
+</p>
+
+</div>
+
+<div class="content">
+
+<div class="section">
+
+<h2>Personal Statement</h2>
+
+<div class="section-card">
+
+<p>
+A Computer Science student with an interest in software development
+and technology. Experienced in programming using C++, Java, and
+JavaScript, with knowledge of web development and software
+development tools. Passionate about learning new technologies,
+improving problem-solving skills, and applying technical knowledge
+to real-world projects.
+</p>
+
+</div>
+</div>
+
+<div class="section">
+
+<h2>Education</h2>
+
+<div class="section-card">
+
+<h3>Bachelor of Computer Science</h3>
+
+<p>
+Kasetsart University<br>
+Kamphaeng Saen Campus
+</p>
+
+</div>
+</div>
+
+<div class="section">
+
+<h2>Skills</h2>
+
+<div class="skill-list">
+
+<div class="section-card">
+
+<h3>Programming Languages</h3>
+
+<ul>
+<li>C++</li>
+<li>Java</li>
+<li>JavaScript</li>
+<li>HTML</li>
+<li>CSS</li>
+</ul>
+
+</div>
+
+<div class="section-card">
+
+<h3>Tools & Technologies</h3>
+
+<ul>
+<li>Git / GitHub</li>
+<li>Visual Studio Code</li>
+<li>Microsoft Office</li>
+</ul>
+
+</div>
+</div>
+</div>
+
+<div class="section">
+
+<h2>Languages</h2>
+
+<div class="section-card">
+
+<p>
+Thai : Native
+<br>
+English : Intermediate
+</p>
+
+</div>
+</div>
+
+<div class="section">
+
+<h2>Interactive Computer Graphics</h2>
+
+<div class="section-card canvas-box">
+
+<p class="canvas-info">
+💗 Click the heart to make it grow 💗<br>
+💗 Use the ⬅ and ⮕ keys to rotate it 💗<br>
+💗 Bring your heart home, and give it a fresh start 💗
+</p>
+
+<canvas
+id="canvas"
+width="200"
+height="200"
+style="width:500px;height:500px;">
+</canvas>
+
+</div>
+</div>
+</div>
+</div>
+
+<script>
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+ctx.imageSmoothingEnabled = false;
+const imageData = ctx.createImageData(canvas.width, canvas.height);
+const pixels = imageData.data;
+const homeImage = new Image();
+homeImage.src = "house-xxl.png";
+
+function putPixel(x, y, r, g, b, a = 255) {
+  if(x < 0 || x >= canvas.width || y < 0 || y >= canvas.height)
+      return;
+  const idx = (y * canvas.width + x) * 4;
+  pixels[idx] = r;
+  pixels[idx + 1] = g;
+  pixels[idx + 2] = b;
+  pixels[idx + 3] = a;
+}
+
+function drawRectFilled(x1, y1, x2, y2, r, g, b, a = 255) {
+  for(let y = y1; y <= y2; y++) {
+    for(let x = x1; x <= x2; x++) {
+      putPixel(x, y, r, g, b, a);
+    }
+  }
+}
+
+function drawSprite24Bit(sprite, x, y) {
+  for(let j = 0; j < sprite.length; j++) {
+      for(let i = 0; i < sprite[j].length; i++) {
+          const color = sprite[j][i];
+          if(color !== null) {
+              const r = (color >> 16) & 255;
+              const g = (color >> 8) & 255;
+              const b = color & 255;
+              putPixel(x + i, y + j, r, g, b);
+          }
+      }
+  }
+}
+
+function drawSprite24BitRotateScale(sprite, x, y, degree, scaleX, scaleY) {
+  const rad = degree * Math.PI / 180;
+
+  const centerX = sprite[0].length / 2;
+  const centerY = sprite.length / 2;
+
+  for(let j = 0; j < sprite.length; j++) {
+    for(let i = 0; i < sprite[j].length; i++) {
+      const color = sprite[j][i];
+      if(color !== null) {
+        const cX = i - centerX;
+        const cY = j - centerY;
+        const x_rotated = Math.round(
+          cX * Math.cos(rad) - cY * Math.sin(rad)
+        );
+
+        const y_rotated = Math.round(
+          cX * Math.sin(rad) + cY * Math.cos(rad)
+        );
+        const x_scaled = Math.round(x_rotated * scaleX);
+        const y_scaled = Math.round(y_rotated * scaleY);
+        const r = (color >> 16) & 255;
+        const g = (color >> 8) & 255;
+        const b = color & 255;
+        drawRectFilled(
+          Math.round(x + centerX + x_scaled),
+          Math.round(y + centerY + y_scaled),
+          Math.round(x + centerX + x_scaled + scaleX - 1),
+          Math.round(y + centerY + y_scaled + scaleY - 1),
+          r,
+          g,
+          b
+        );
+      }
+    }
+  }
+}
+
+const heartSprite24Bit = [
+  [null,     0xBE123C, 0xBE123C, null,     null,     0xBE123C, 0xBE123C, null    ],
+  [0xBE123C, 0xFFF1F2, 0xFB7185, 0xBE123C, 0xBE123C, 0xFB7185, 0xE11D48, 0xBE123C],
+  [0xBE123C, 0xFB7185, 0xE11D48, 0xE11D48, 0xE11D48, 0xE11D48, 0xE11D48, 0xBE123C],
+  [0xBE123C, 0xE11D48, 0xE11D48, 0xE11D48, 0xE11D48, 0xE11D48, 0xE11D48, 0xBE123C],
+  [null,     0xBE123C, 0xE11D48, 0xE11D48, 0xE11D48, 0xE11D48, 0xBE123C, null    ],
+  [null,     null,     0xBE123C, 0xE11D48, 0xE11D48, 0xBE123C, null,     null    ],
+  [null,     null,     null,     0xBE123C, 0xBE123C, null,     null,     null    ],
+  [null,     null,     null,     null,     null,     null,     null,     null    ]
+];
+
+const startX = canvas.width / 2;
+const startY = canvas.height / 2;
+const resetBox = {
+  x: 10,
+  y: 10,
+  width: 30,
+  height: 30
+};
+
+let spriteX = startX;
+let spriteY = startY;
+let degree = 0;
+let scaleX = 1;
+let scaleY = 1;
+let isDragging = false;
+let previousX = 0;
+let previousY = 0;
+
+function toScaledMousePos(posX, posY) {
+  const rect = canvas.getBoundingClientRect();
+  return {
+    x: Math.floor((posX - rect.left) * canvas.width / rect.width),
+    y: Math.floor((posY - rect.top) * canvas.height / rect.height)
+  };
+}
+
+for(let y = 0; y < canvas.height; y++) {
+  for(let x = 0; x < canvas.width; x++) {
+      putPixel(x, y, 255, 255, 255);
+  }
+}
+
+function drawResetBox() {
+  if(homeImage.complete && homeImage.naturalWidth > 0){
+    ctx.imageSmoothingEnabled = false;
+    ctx.drawImage(
+      homeImage,
+      resetBox.x,
+      resetBox.y,
+      30,
+      30
+    );
+  }
+}
+
+function animate() {
+  for(let y = 0; y < canvas.height; y++) {
+      for(let x = 0; x < canvas.width; x++) {
+          putPixel(x, y, 255, 255, 255);
+      }
+  }
+  drawSprite24BitRotateScale(
+   heartSprite24Bit,
+   spriteX,
+   spriteY,
+   degree,
+   scaleX,
+   scaleY
+  );
+  ctx.putImageData(imageData,0,0);
+  drawResetBox();
+  requestAnimationFrame(animate);
+}
+animate();
+
+window.addEventListener("keydown",(event)=>{
+  const rotateSpeed = 5;
+    switch(event.key){
+      case "ArrowLeft":
+        degree -= rotateSpeed;
+          break;
+      case "ArrowRight":
+        degree += rotateSpeed;
+        break;
+    }
+});
+
+canvas.addEventListener("click",()=>{
+  scaleX += 0.5;
+  scaleY += 0.5;
+});
+
+canvas.addEventListener("mousedown",(event)=>{
+  isDragging = true;
+  const {x,y} = toScaledMousePos(event.clientX,event.clientY);
+  previousX = x;
+  previousY = y;
+});
+
+canvas.addEventListener("mousemove",(event)=>{
+  if(!isDragging) return;
+  const {x,y} = toScaledMousePos(event.clientX,event.clientY);
+  spriteX += x - previousX;
+  spriteY += y - previousY;
+  previousX = x;
+  previousY = y;
+});
+
+canvas.addEventListener("mouseup",(event)=>{
+  isDragging = false;
+  const mouse = toScaledMousePos(
+  event.clientX,
+  event.clientY
+  );
+  if(
+    mouse.x >= resetBox.x &&
+    mouse.x <= resetBox.x + resetBox.width &&
+    mouse.y >= resetBox.y &&
+    mouse.y <= resetBox.y + resetBox.height
+    ){
+      spriteX = startX;
+      spriteY = startY;
+      degree = 0;
+      scaleX = 1;
+      scaleY = 1;
+    }
+});
+
+canvas.addEventListener("mouseleave",()=>{
+  isDragging = false;
+});
+</script>
+
+</body>
+</html>
